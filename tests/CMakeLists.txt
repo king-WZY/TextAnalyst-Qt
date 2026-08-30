@@ -26,6 +26,9 @@ if (Qt6_FOUND)
     add_executable(tst_open_file integration/tst_open_file.cpp)
     target_link_libraries(tst_open_file PRIVATE core io controller Qt6::Test)
     add_test(NAME tst_open_file COMMAND tst_open_file)
+    # 无显示环境（CI runner）下 Qt Widgets 需要 offscreen 平台插件
+    set_tests_properties(tst_open_file PROPERTIES
+      ENVIRONMENT "QT_QPA_PLATFORM=offscreen")
   endif()
   if (EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/integration/tst_io.cpp")
     add_executable(tst_io integration/tst_io.cpp)
@@ -36,5 +39,7 @@ if (Qt6_FOUND)
     add_executable(tst_ui integration/tst_ui.cpp)
     target_link_libraries(tst_ui PRIVATE core io controller ui Qt6::Test)
     add_test(NAME tst_ui COMMAND tst_ui)
+    set_tests_properties(tst_ui PROPERTIES
+      ENVIRONMENT "QT_QPA_PLATFORM=offscreen")
   endif()
 endif()
