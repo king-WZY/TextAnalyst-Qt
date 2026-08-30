@@ -1,0 +1,65 @@
+.TH TEXTANALYST-QT 1 "2026-08-29" "textanalyst-qt 1.1.0" "User Commands"
+.SH NAME
+textanalyst-qt \- high-performance text log filtering and marking tool
+.SH SYNOPSIS
+.B textanalyst-qt
+[\fIoptions\fR] [\fIfile\fR]
+.SH DESCRIPTION
+TextAnalyst-Qt loads a text/log file with an mmap snapshot and a lazy line
+index (1 GiB file opens in under 500 ms), applies include/exclude filter
+rules (substring or PCRE2-backed regex), supports 8 line-marker colors with
+circular jump, and keeps the original TextAnalyst (.tat) filter format.
+.SH OPTIONS
+.TP
+.BR \-h ", " \-\-help
+Show this help and exit.
+.TP
+.BR \-V ", " \-\-version
+Show version and exit.
+.TP
+.BR \-f ", " \-\-file " " \fIpath\fR
+Open \fIpath\fR (overrides the positional argument).
+.TP
+.BR \-\-line " " \fIn\fR
+Jump to line \fIn\fR after the file is opened.
+.TP
+.BR \-\-grep " " \fIpattern\fR
+Filter to lines matching \fIpattern\fR (include rule).
+.TP
+.BR \-\-load " " \fIfile.tat\fR
+Load filter rules from a .tat file once the document is open.
+.TP
+.BR \-\-export " " \fIfile\fR
+Export visible lines (hidden and dimmed rows are skipped).
+.TP
+.BR \-\-no\-restore
+Skip the last-session restore.
+.TP
+.BR \-\-verbose
+Verbose logging on stderr.
+.TP
+.BR \-\-compact\-memory
+Enable MADV_DONTNEED unloading (experimental, off by default).
+.SH FILES
+.TP
+.I ~/.config/textanalyst-qt/textanalyst-qt.conf
+User preferences (QSettings).
+.TP
+.I ~/.cache/textanalyst-qt/textanalyst-qt.log
+Runtime log (4 MiB per file, up to 4 rotated backups, 20 MiB total).
+.SH ENVIRONMENT
+.TP
+.B QT_QPA_PLATFORM
+Force a platform plugin (e.g. \fBxcb\fR when debugging under Wayland).
+.TP
+.B QT_SCALE_FACTOR
+Global HiDPI scale factor.
+.TP
+.B LANG
+UI language (e.g. \fBzh_CN.UTF-8\fR).
+.TP
+.B QT_IM_MODULE
+Input method module (e.g. \fBfcitx\fR).
+.SH SEE ALSO
+The project documentation set: architecture.md(7), detailed-design.md(7)
+in /usr/share/doc/textanalyst-qt.

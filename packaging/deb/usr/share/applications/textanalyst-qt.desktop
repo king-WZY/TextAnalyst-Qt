@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=TextAnalyst-Qt
+GenericName=Text Log Analyzer
+GenericName[zh_CN]=文本日志分析器
+Comment=High-performance text filtering & marking tool
+Comment[zh_CN]=高性能文本过滤与标记工具
+Exec=textanalyst-qt %F
+Terminal=false
+Categories=TextEditor;Development;Utility;
+MimeType=text/plain;text/x-log;
+Icon=textanalyst-qt
+StartupWMClass=textanalyst-qt
+Keywords=log;filter;mark;regex;
+Keywords[zh_CN]=日志;过滤;标记;正则;

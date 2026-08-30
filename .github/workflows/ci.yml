@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test-package:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, ubuntu-24.04]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential cmake ninja-build \
+            qt6-base-dev qt6-base-dev-tools \
+            libicu-dev libpcre2-dev fonts-noto-cjk
+
+      - name: Configure & build
+        run: ./build.sh Release
+
+      - name: Unit & integration tests
+        run: ctest --test-dir build/Release --output-on-failure
+
+      - name: Core-only verification (no-Qt path)
+        run: tools/check-core.sh
+
+      - name: Package .deb
+        run: |
+          (cd build/Release && cpack -G DEB)
+          dpkg-deb --info build/Release/textanalyst-qt_*.deb
+
+      - name: Upload .deb artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: textanalyst-qt-deb-${{ matrix.os }}
+          path: build/Release/*.deb

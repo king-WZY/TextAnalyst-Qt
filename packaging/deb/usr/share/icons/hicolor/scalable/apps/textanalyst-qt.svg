@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- TextAnalyst-Qt application icon: log lines with pattern-highlighted rows
+     and a magnifier, drawn as simple vector shapes (16/24/.../scalable). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d3a4f"/>
+      <stop offset="1" stop-color="#1b2432"/>
+    </linearGradient>
+  </defs>
+  <!-- sheet -->
+  <rect x="12" y="10" width="104" height="108" rx="10" fill="url(#bg)"/>
+  <!-- log lines -->
+  <g fill="#8b9bb4" font-family="monospace" font-size="13">
+    <text x="26" y="42">38-29 10:12 INFO init</text>
+    <text x="26" y="60">38-29 10:13 WARN retry</text>
+    <text x="26" y="78">38-29 10:13 ERROR lost</text>
+    <text x="26" y="96">38-29 10:14 INFO done</text>
+  </g>
+  <!-- highlight bar across the ERROR line -->
+  <rect x="24" y="66" width="80" height="19" rx="3" fill="#ffd75e" opacity="0.92"/>
+  <text x="26" y="79" fill="#1b2432" font-family="monospace" font-size="13">38-29 10:13 ERROR lost</text>
+  <!-- magnifier -->
+  <circle cx="92" cy="28" r="16" fill="none" stroke="#4fb3ff" stroke-width="6"/>
+  <line x1="104" y1="40" x2="118" y2="54" stroke="#4fb3ff" stroke-width="7" stroke-linecap="round"/>
+</svg>
