@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterListModel.h: 过滤器规则表格模型（Dock 面板）
 // 文档：DISPLAYDESIGN.md §7.5.1

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_marker.cpp: 标记管理单元测试（DISPLAYDESIGN.md §10.2.3）
 // =============================================================================

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // RowState.h: 每行最终渲染状态（1 字节：状态 2 bit + ruleRef 6 bit）
 // 文档：DISPLAYDESIGN.md §1.5 / §3.2.2 / §3.3

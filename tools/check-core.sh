@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # =============================================================================
 # check-core.sh: core 层验证脚本（无 cmake/Qt 环境的现行验证入口）
 # 标准构建环境请使用 build.sh（CMake+Ninja，tests 全部走 ctest）。

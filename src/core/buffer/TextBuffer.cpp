@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // TextBuffer.cpp: 文本快照实现
 // 构造流程见 DISPLAYDESIGN.md §2.5.2（mmap → detectFast → 索引 → 发布）

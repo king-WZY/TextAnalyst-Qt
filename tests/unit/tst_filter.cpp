@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_filter.cpp: 过滤引擎单元测试（DISPLAYDESIGN.md §10.2.2）
 // 覆盖：状态决策表 8 场景、子串/正则、大小写、词边界、取消、并发一致性

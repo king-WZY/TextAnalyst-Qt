@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // TatSerializer.cpp: .tat XML 格式实现
 // 既有属性（保持原版 TAT 兼容）：id/foreColor/backColor/pattern/isInclude/

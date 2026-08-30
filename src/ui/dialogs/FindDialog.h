@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FindDialog.h: 搜索对话框（搜索框 + 选项 + 结果计数）
 // 文档：DISPLAYDESIGN.md §7.7

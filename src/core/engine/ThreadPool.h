@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // ThreadPool.h: 线程池抽象（BLL 零 Qt 依赖的关键接口）
 // 文档：DISPLAYDESIGN.md §4.2（ThreadPool 抽象 / QThreadPoolAdapter 在 UI 层）

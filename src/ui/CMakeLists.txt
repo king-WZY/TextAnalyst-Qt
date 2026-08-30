@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # ui: 表现层（Qt Widgets），依赖 core/io/controller（§0.3 依赖方向）
 add_library(ui STATIC
   widgets/LogViewModel.cpp

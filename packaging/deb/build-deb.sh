@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # =============================================================================
 # build-deb.sh: 构建 .deb 安装包（CPack DEB → dpkg-deb，无需 root）
 # 用法：packaging/deb/build-deb.sh [Release|Debug]

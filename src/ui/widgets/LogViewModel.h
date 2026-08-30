@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LogViewModel.h: 只读行模型（虚拟化 + 可见行映射）
 // 文档：DISPLAYDESIGN.md §7.2（R-26 修订：Hidden 行折叠不占槽）

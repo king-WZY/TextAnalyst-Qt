@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // main.cpp: 装配入口（§6.5 启动流程 / §6.6 信号处理与优雅退出）
 // 信号处理采用"自管道"模式（v1.0.1 修订：async-signal-safe）：

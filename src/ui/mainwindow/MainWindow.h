@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MainWindow.h: 主窗口（Fusion 主题 / Docking / 状态栏 / 拖放）
 // 文档：DISPLAYDESIGN.md §7.6；ARCHITECTURE.md §5.2/§5.3

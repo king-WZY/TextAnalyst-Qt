@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_io.cpp: IO 层集成测试（QtTest）
 // 覆盖：TatSerializer 往返/备份/异常文件；SettingsManager 会话；

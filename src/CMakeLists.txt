@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 add_subdirectory(core)
 add_subdirectory(io)
 add_subdirectory(controller)

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LineIndexer.cpp: 换行符扫描索引
 // 实现要点（DISPLAYDESIGN.md §2.4.2）：

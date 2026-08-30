@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # core: BLL + DAL，Qt-independent（硬约束 §0.3-1/2）
 add_library(core STATIC
   buffer/MemoryMappedFile.cpp

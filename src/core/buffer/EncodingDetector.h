@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // EncodingDetector.h: 编码识别（纯函数，无状态，可并发调用）
 // 文档：DISPLAYDESIGN.md §2.3（R-04：detectFast 用于索引构建）

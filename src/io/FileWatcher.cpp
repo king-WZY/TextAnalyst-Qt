@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FileWatcher.cpp: inotify 实现
 // 事件掩码：IN_MODIFY | IN_MOVED_FROM | IN_MOVED_TO | IN_ATTRIB（§2.6.2）

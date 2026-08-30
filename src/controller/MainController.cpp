@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MainController.cpp: 控制层实现
 // 并发模型（DISPLAYDESIGN §5）：(确保) 所有耗时操作进 QThreadPool，

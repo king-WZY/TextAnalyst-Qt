@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterEngine.cpp: 过滤引擎实现
 // 实现要点（DISPLAYDESIGN.md §3.2）：

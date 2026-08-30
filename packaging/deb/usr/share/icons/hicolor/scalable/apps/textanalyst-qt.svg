@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- Copyright (C) 2026 TextAnalyst-Qt contributors -->
 <!-- TextAnalyst-Qt application icon: log lines with pattern-highlighted rows
      and a magnifier, drawn as simple vector shapes (16/24/.../scalable). -->
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">

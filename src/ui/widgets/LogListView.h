@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LogListView.h: 虚拟化列表视图（百万行滚动）
 // 文档：DISPLAYDESIGN.md §7.4（uniformItemSizes / ScrollPerPixel /

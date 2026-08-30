@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LogRotator.h: 运行日志轮转（大小限制 + 保留历史档）
 // 文档：DISPLAYDESIGN.md §11.2（R-12 修订：4 MiB × 4 档，最多 20 MiB）

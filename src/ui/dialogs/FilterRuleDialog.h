@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterRuleDialog.h: 过滤规则编辑弹窗（添加 / 修改共用同一窗口）
 // 文档：DISPLAYDESIGN.md §7.5.2（R-22 修订：编辑表单弹窗化，不常驻占空间）

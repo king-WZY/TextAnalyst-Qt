@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MainController.h: 控制层核心（中介者：UI ↔ BLL/DAL）
 // 文档：DISPLAYDESIGN.md §6（命令路由 §6.3 / 会话 §6.4 / 退出流程 §6.6）

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterRule.h: 过滤规则与规则快照（值语义，可拷贝）
 // 文档：DISPLAYDESIGN.md §1.6（R-10：匹配逻辑归 FilterEngine，不在此处）

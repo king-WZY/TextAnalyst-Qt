@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterDockWidget.h: 过滤规则列表面板（底部常驻，紧凑，可关闭/恢复）
 // 文档：DISPLAYDESIGN.md §7.5.2（R-22/R-23：编辑表单在 FilterRuleDialog

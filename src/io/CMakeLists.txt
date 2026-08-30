@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # io: 持久化/系统集成（Qt 依赖：Xml/Concurrent），依赖 core（规则数据结构）
 add_library(io STATIC
   TatSerializer.cpp

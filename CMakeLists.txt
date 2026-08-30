@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 cmake_minimum_required(VERSION 3.22)
 project(textanalyst-qt VERSION 1.1.0 LANGUAGES CXX)
 

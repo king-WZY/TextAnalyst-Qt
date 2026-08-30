@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // Marker.h: 行标记值的简单载体
 // 文档：DISPLAYDESIGN.md §1.7；容器与算法见 engine/MarkerManager.h（§3.4）

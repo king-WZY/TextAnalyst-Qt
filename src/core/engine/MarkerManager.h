@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MarkerManager.h: 8 种行标记管理
 // 文档：DISPLAYDESIGN.md §3.4（R 修订：有序 vector 替代 unordered_set）

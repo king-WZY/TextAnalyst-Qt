@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterEngine.h: 过滤规则执行引擎（数据驱动，无状态静态方法）
 // 文档：DISPLAYDESIGN.md §3.2（状态决策表 §3.2.2 / 分片并发 §3.2.3 /

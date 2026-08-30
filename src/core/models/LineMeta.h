@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LineMeta.h: 行元数据（8 字节紧凑表示）
 // 文档：DISPLAYDESIGN.md §1.3（R-03：不含 valid()/hash）

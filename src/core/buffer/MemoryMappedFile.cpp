@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MemoryMappedFile.cpp: POSIX mmap 实现
 // 打开算法见 DISPLAYDESIGN.md §2.2.2（MAP_PRIVATE 快照语义、fcntl 采样锁）

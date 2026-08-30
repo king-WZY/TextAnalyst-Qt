@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // Searcher.h: 搜索（独立于过滤器，字节偏移语义）
 // 文档：DISPLAYDESIGN.md §3.5（快速路径 §3.5.3 / 字节偏移 §3.5.4 /

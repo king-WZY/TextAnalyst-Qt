@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // TatSerializer.h: .tat 过滤器文件读写（与原版 TAT 格式互通）
 // 文档：ARCHITECTURE.md §7.2；DISPLAYDESIGN.md §6.2

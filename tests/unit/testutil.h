@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // testutil.h: BLL/DAL 单测公共工具（临时文件 → TextBuffer）
 // =============================================================================

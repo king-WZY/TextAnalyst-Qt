@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_ui.cpp: UI 集成测试（QTest + offscreen）
 // 覆盖（R-22 弹窗化交互）：

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // EncodingDetector.cpp: 编码识别实现
 // 检测流程见 DISPLAYDESIGN.md §2.3.2（L1 BOM → L2 UTF-8 → L3 iconv → L4 locale）

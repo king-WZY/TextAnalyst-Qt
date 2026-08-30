@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LogViewDelegate.cpp: 渲染实现
 // 渲染流程见 DISPLAYDESIGN.md §7.3.2；颜色规则 §3.3.1；标记色条 §7.3.6

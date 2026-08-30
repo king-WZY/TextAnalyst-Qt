@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // SettingsManager.cpp: QSettings 封装
 // 路径：QSettings 走 XDG（~/.config/textanalyst-qt/textanalyst-qt.conf），

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FilterResult.h: 每行最终结果快照（双缓冲的载荷）
 // 文档：DISPLAYDESIGN.md §3.2.1 / §5.4

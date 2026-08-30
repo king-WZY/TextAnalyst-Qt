@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // SettingsManager.h: 用户偏好与会话（QSettings，XDG 路径）
 // 文档：ARCHITECTURE.md §7.3；DISPLAYDESIGN.md §6.4

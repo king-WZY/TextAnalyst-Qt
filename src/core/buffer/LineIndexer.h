@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LineIndexer.h: 后台线程偏移量索引（"延迟解析 + 偏移量索引"策略）
 // 文档：ARCHITECTURE.md §3.2；DISPLAYDESIGN.md §2.4

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // FileWatcher.h: inotify 单文件监听（POSIX inotify + Qt 事件循环集成）
 // 文档：ARCHITECTURE.md §3.4（v1.0.1）；DISPLAYDESIGN.md §2.6

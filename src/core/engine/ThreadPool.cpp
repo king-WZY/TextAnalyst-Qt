@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // ThreadPool.cpp: SimpleThreadPool（std::thread 实现）
 // =============================================================================

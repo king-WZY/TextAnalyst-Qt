@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // common.h: 基础类型别名、常量与 SharedSnapshot（C++17 兼容无锁快照）
 // 文档：DISPLAYDESIGN.md §1.1 / §1.5（R-01）

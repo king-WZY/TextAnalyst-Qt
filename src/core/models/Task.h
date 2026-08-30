@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // Task.h: 任务令牌（世代号取消）与进度报告
 // 文档：DISPLAYDESIGN.md §1.5 / §3.2.4 / §5.6

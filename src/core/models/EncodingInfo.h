@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // EncodingInfo.h: 编码识别结果
 // 文档：DISPLAYDESIGN.md §1.8 / §2.3

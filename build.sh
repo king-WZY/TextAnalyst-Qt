@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 # 一键构建脚本（ARCHITECTURE.md §10.2）
 # 使用：./build.sh [Debug|Release]
 set -euo pipefail

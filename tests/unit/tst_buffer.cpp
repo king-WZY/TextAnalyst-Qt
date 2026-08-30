@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_buffer.cpp: DAL 层单元测试（DISPLAYDESIGN.md §10.2.1 用例清单）
 // 覆盖：MemoryMappedFile / LineIndexer / TextBuffer（真实 mmap + 临时文件）

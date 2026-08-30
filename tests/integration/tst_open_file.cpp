@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_open_file.cpp: 集成测试（真实 mmap + MainController 异步流程）
 // 文档：DISPLAYDESIGN.md §10.3

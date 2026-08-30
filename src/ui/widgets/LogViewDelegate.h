@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // LogViewDelegate.h: 渲染委托（paint 只做查表 + 绘图，绝不正则/I/O）
 // 文档：DISPLAYDESIGN.md §7.3（颜色解析/超宽行截断/隐藏行行槽/标记色条）

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // bench_1gb.cpp: 性能基准（DISPLAYDESIGN.md §9 性能预算 / ARCH-UB §13）
 // 指标：打开（mmap+索引）、全量过滤匹配、内存占用（Rss）

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // Searcher.cpp: 搜索实现
 // 快速路径（Substring）：FilterEngine::findSubstring（含词边界）

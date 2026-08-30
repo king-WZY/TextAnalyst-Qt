@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 TextAnalyst-Qt contributors
 enable_testing()
 
 # core 层单测：不依赖 Qt（任何有 g++ 的环境可跑）

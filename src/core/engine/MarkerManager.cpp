@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MarkerManager.cpp: 有序 vector + 二分实现
 // 复杂度：add/remove/has/next 均 O(log n)；100 万标记内存仅 ~4 MB（§3.4.4）

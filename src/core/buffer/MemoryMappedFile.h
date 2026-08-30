@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // MemoryMappedFile.h: POSIX mmap 内存映射文件（DAL 层）
 // 文档：ARCHITECTURE.md §3.1（v1.0.1 修订）；DISPLAYDESIGN.md §2.2

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // tst_encoding.cpp: 编码检测单元测试（DISPLAYDESIGN.md §2.3）
 // 覆盖：BOM 四级、严格 UTF-8 校验、iconv 试转、convert 转码

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // TextBuffer.h: 只读文本快照（DAL 与 BLL 的交接物）
 // 文档：DISPLAYDESIGN.md §2.5（R-05 工厂签名 / R-06 空文件语义）

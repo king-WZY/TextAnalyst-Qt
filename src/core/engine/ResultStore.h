@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // ResultStore.h: 发布-订阅式双缓冲（C++17 兼容，无 use-after-free）
 // 文档：DISPLAYDESIGN.md §5.4（R-01：SharedSnapshot 替代 std::atomic<shared_ptr>）

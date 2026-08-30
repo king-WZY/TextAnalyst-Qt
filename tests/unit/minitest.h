@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // minitest.h: 极简单测框架（core 层零 Qt 依赖，任何 g++ 环境可运行）
 // 用法：TEST(name) { CHECK(cond); CHECK_EQ(a, b); } ... int main(){ return minitest::runAll(); }

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 TextAnalyst-Qt contributors
 // =============================================================================
 // Error.h: 错误模型（不使用 C++ 异常，统一返回值）
 // 文档：DISPLAYDESIGN.md §1.4
